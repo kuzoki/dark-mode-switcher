@@ -1,4 +1,4 @@
-# Dark Mode Switcher Plugin
+# Elementor Dark Mode Switcher Plugin
 
 ## Overview
 The Elementor Dark Mode Switcher plugin allows you to easily toggle between dark and light modes on your Elementor site, enhancing user experience and accessibility. This plugin provides a visually comfortable interface for different lighting conditions, making it easier for users to interact with your site regardless of their environment.
