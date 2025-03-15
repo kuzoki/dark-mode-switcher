@@ -1,0 +1,96 @@
+.darkBot {
+    background-color: rgba(0, 0, 0, 0.129);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.darkBot:before {
+    width: 32px;
+    content: '';
+    height: 100%;
+    background-image: url('../sun.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    transition: .3s;
+    background-position: 50%;
+}
+
+.dark-mode-active .darkBot:before {
+    background-image: url('../moon.svg');
+}
+
+.dark-mode-active .darkBot {
+    background-color: rgba(255, 255, 255, .171);
+}
+
+.mode {
+    background-color: rgba(0, 0, 0, 0.129);
+    border-radius: 30px;
+    width: 58px;
+    position: relative;
+    height: 32px;
+    flex-shrink: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.mode:before {
+    width: 32px;
+    height: 100%;
+    background-image: url('../sun.svg');
+    background-size: cover;
+    left: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    transition: .3s;
+    background-position: 50%;
+}
+
+.mode:after {
+    width: 20px;
+    height: 20px;
+    right: 6px;
+    top: 6px;
+    background-color: #7a7878;
+    border-radius: 50%;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+
+.mode:after,
+.mode:before {
+    content: "";
+    position: absolute;
+}
+
+.dark-mode-active .mode:before {
+    background-image: url('../moon.svg');
+    -webkit-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.dark-mode-active .mode:after {
+    -webkit-transform: translateX(-24px);
+    transform: translateX(-24px);
+}
+
+.dark-mode-active .mode {
+    background-color: rgba(255, 255, 255, .171);
+}
+
+.dark-mode-active td div{
+    background-color: rgb(51, 51, 51);
+}
+td div{
+    padding: 10px;
+}
