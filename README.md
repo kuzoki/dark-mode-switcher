@@ -20,7 +20,6 @@ The Elementor Dark Mode Switcher plugin allows you to easily toggle between dark
 
 ## Features
 - Toggle between light and dark modes.
-- Customizable switcher button.
 - Automatic detection of user's system theme preference. (coming soon)
 - Lightweight and easy to use.
 - Persistent dark mode: When this option is checked, dark mode will remain active for visitors to your website, even when they switch between pages. Their selected mode will be stored in local storage, ensuring that preferences are maintained even after closing the browser.
