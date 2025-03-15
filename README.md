@@ -25,7 +25,7 @@ The Elementor Dark Mode Switcher plugin allows you to easily toggle between dark
 - Persistent dark mode: When this option is checked, dark mode will remain active for visitors to your website, even when they switch between pages. Their selected mode will be stored in local storage, ensuring that preferences are maintained even after closing the browser.
 
 ## Support
-For support and troubleshooting, please visit the [support forum](https://wordpress.org/support/plugin/dark-mode-switcher) or contact us via email at support@example.com.
+For support and troubleshooting, please contact us via email at bamoussaabderrahmane@gmail.com or https://www.linkedin.com/in/abderrahmane-bamoussa-77aaa221b/
 
 ## Changelog
 ### 1.0.0
@@ -38,4 +38,4 @@ This plugin is licensed under the GPLv2 or later.
 We welcome contributions! Please fork the repository and submit pull requests.
 
 ## Credits
-Developed by [Your Name or Company].
+Developed by [Abderrahmane Bamoussa].
